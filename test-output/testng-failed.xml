@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="talentwize.Test_FunctionalAccess_ED_CompanyJobHistory">
+        <methods>
+          <include name="finishTestCase"/>
+          <include name="KhoiTaoCacNguonTaiNguyen"/>
+          <include name="PrintNameTestCase"/>
+          <include name="dongTrinhDuyet"/>
+          <include name="TT_823"/>
+        </methods>
+      </class> <!-- talentwize.Test_FunctionalAccess_ED_CompanyJobHistory -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
